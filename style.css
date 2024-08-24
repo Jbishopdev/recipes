@@ -23,3 +23,19 @@ img {
     width: 500px;
     height: auto;
 }
+
+ul li{
+    font-size: 32px;
+}
+
+ol li{
+    font-size: 12px;
+}
+
+.list .item {
+    background-color: brown;
+}
+
+.item {
+    background-color: chartreuse;
+}
