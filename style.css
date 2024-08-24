@@ -36,6 +36,10 @@ ol li{
     background-color: brown;
 }
 
+.list.item {
+    background-color: black;
+}
+
 .item {
     background-color: chartreuse;
 }
