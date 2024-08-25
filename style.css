@@ -48,11 +48,7 @@ ol li{
 }
 .deadpool {
     padding: 20px;
-    justify-content: center;
-    text-align: center;
     background-color: rgb(216, 113, 16);
-    justify-content: center;
-    align-items: center;
     display: flex;
 }
 
@@ -89,9 +85,9 @@ ol li{
 .left-eye {
     position: absolute;
     background-color: white;
-    height: 10px;
+    height: 8px;
     width: 15px;
-    left: 48%;
+    left: 2.5%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     rotate: 30deg;
@@ -100,9 +96,9 @@ ol li{
 .right-eye {
     position: absolute;
     background-color: white;
-    height: 10px;
+    height: 8px;
     width: 15px;
-    right: 48%;
+    right: 93.5%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     rotate: -30deg;
