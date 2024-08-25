@@ -1,9 +1,8 @@
-* {outline: 2px solid blue
-  }
 
 body {
     background-color: rgb(9, 185, 234);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
 }
 
 .ingredients {
@@ -46,4 +45,65 @@ ol li{
 
 .item {
     background-color: chartreuse;
+}
+.deadpool {
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(216, 113, 16);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.head-wrapper {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.black-circle {
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border: 100%;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.red-bar {
+    background-color: brown;
+    width: 15px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left-eye {
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 15px;
+    left: 48%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    rotate: 30deg;
+}
+
+.right-eye {
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 15px;
+    right: 48%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    rotate: -30deg;
 }
