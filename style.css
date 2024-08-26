@@ -10,6 +10,10 @@ body {
     font-weight: 600;
 }
 
+.hightlight {
+    background-color: rgb(239, 239, 120);
+}
+
 .steps {
     color: blueviolet;
     font-weight: 700;
