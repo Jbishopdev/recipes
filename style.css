@@ -112,3 +112,20 @@ ol li{
     display: flex;
     border: 5px dashed black;
 }
+
+.flex-test-container {
+    display: flex;
+    border: 5px solid brown;
+    flex: 1;
+}
+
+.flex-test-container div {
+    background-color: blueviolet;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    flex: 1 1 auto;
+}
+
+.flex-test-container .test-two {
+}
